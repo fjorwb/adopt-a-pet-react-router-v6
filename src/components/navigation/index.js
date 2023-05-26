@@ -21,10 +21,12 @@ const Navigation = () => {
 	return (
 		<nav>
 			<div className='nav-logo'>
-				<img
-					src={Logo}
-					alt='Petlover'
-				/>
+				<NavLink href='/'>
+					<img
+						src={Logo}
+						alt='Petlover'
+					/>
+				</NavLink>
 				<Search />
 			</div>
 			<ul className='nav-links'>
