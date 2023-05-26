@@ -8,23 +8,26 @@
 .nav-links {
   padding: 12px 180px;
   background: #56009b;
-  color: white;
+  color: #eee;
   list-style: none;
   display: flex;
   justify-content: space-around;
   margin: 0;
+  font-size: 18px;
+  align-items: center;
 }
 
 .nav-link {
-  color: white;
+  color: #eee;
   text-decoration: none;
   border-radius: 18px;
   padding: 6px 24px;
-  font-size: 18px;
 }
 
 .nav-link-active {
-  background: #320059;
+  /* background: #320059; */
+  color: #fff;
+  font-weight: 700;
 }
 
 .pet-type-label {
@@ -60,6 +63,7 @@
 
 .pet p {
   margin: 0;
+  text-align: left;
 }
 
 .page h3 {
@@ -70,16 +74,25 @@
   margin: 40px 0 35px 0;
 }
 
+.page p {
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
 .page img {
   margin: 0 auto;
   display: block;
 }
 
 .pet-detail {
+  /* background: chartreuse; */
   display: flex;
   width: 100%;
   gap: 24px;
   padding: 32px;
+  text-align: left;
 }
 
 .pet-detail h1 {
@@ -87,7 +100,8 @@
   margin-bottom: 0;
   font-size: 30px;
   font-weight: bold;
-  color: #000000;
+  color: #fff;
+  background: #56009b;
 }
 
 .pet-detail h3 {
@@ -102,6 +116,7 @@
   font-size: 16px;
   margin: 0;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .hero-container {
@@ -147,6 +162,7 @@ body {
   font-size: 14px;
   margin-bottom: 4px;
   margin-top: 0;
+  text-align: left;
 }
 
 .prompt {
